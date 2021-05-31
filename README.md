@@ -1,6 +1,6 @@
-Victória Maria Veloso Rodrigues 11811ECP003,
 Anaísa Forti da Fonseca 11811ECP012,
-Lucas Alesterio Marques Vieira 11621ECP016, 
+Lucas Alesterio Marques Vieira 11621ECP016,
+Victória Maria Veloso Rodrigues 11811ECP003
 
 ## Routes
 
