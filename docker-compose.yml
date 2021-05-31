@@ -1,0 +1,20 @@
+version: "3"
+services:
+    db:
+        image: mariadb
+        ports:
+            - "3306:3306"
+        restart: on-failure
+        environment:
+            MYSQL_ROOT_PASSWORD: "000000"
+            MYSQL_DATABASE: "asa_tb2"
+    api:
+        depends_on:
+            - "db"
+        restart: on-failure
+        build: .
+        ports:
+            - "5000:5000"
+        links:
+            - "db"
+        command: npm start
